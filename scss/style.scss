@@ -1,0 +1,202 @@
+$primary:#CFB784;
+$primary-overlay: #E6E6E6;
+#home{
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+    button{
+        background-color:$primary;
+    color: #fff;
+    }
+    img{
+        height: 560px;
+        width: 280px;
+        border-radius: 0 250px  250px  0;
+    }
+    p{
+        margin-top: 100px;
+    }
+}
+#part1{
+    background-color:$primary-overlay;
+    padding-bottom: 100px;
+    img{
+         height: 280px;
+         width:560px;
+         border-radius: 0 0 250px 250px;
+         margin-left: 250px;
+        }
+    .card{
+        height: 370px;
+    }
+    .card-body{
+        h1{
+            background-color:$primary; 
+            color: white; 
+            width: 40%;
+        }
+    }
+}
+#part2{
+    margin-bottom: 50px;
+    .image{
+        background-image:url(../images/3.jpg);
+        background-position: center center;
+        background-size: cover;
+        min-height: 500px;
+    }
+    .row{
+        margin-top: -120px;
+        margin-left: 100px;
+    }
+    h1{
+        color:$primary;
+    }
+    p{
+        font-size: 0.7rem;
+        display: inline-block;
+    }
+    .card-body{
+        display: inline;
+    }
+    .card{
+        border-radius: 10%;
+    }
+}
+#part3{
+    margin-left: 300px;
+    margin-top: 200px;
+    img{
+        height: 500px;
+        width: 250px;
+        border-bottom-left-radius: 250px;
+        border-top-left-radius: 250px;
+    }
+    button{
+        background-color:$primary;
+        color: #fff;
+        border-radius: 5%;
+    }
+    .b{
+        border: 1px solid $primary;
+        background-color:  $primary;
+        width: 35%;
+        height: 30%;
+        margin-left: 50px;
+    }
+    .fontb{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .fontp{
+        width: 150%;
+        margin-bottom: 30px;
+    }
+}
+#about{
+    background-color: $primary-overlay;
+    .container{
+        padding-top: 30px;
+    }
+    .circle{
+        border: 3px solid $primary;
+        width: 140px;
+        height: 140px;
+        border-radius: 100%;
+        margin-left: 800px;
+        background-color:$primary;
+    }
+     .text-left{
+        width: 30%;
+        background-color: $primary-overlay;
+        margin-top: -250px;
+        margin-left: 350px;
+        height: 300px;
+        border: 1px solid $primary-overlay;
+     }
+     img{
+        width: 60%;
+        z-index: -1;
+         min-height: 570px;
+        border-radius: 50%;
+        margin-left: 50px;
+     }
+     button{
+        background-color:$primary;
+        color: #fff;
+    }
+    .card-body{
+        font-size: 0.9rem;
+    }
+}
+#part4{
+    margin-left: 150px;
+    img{
+        height: 560px;
+        width: 280px;
+        border-radius: 0 250px  250px  0; 
+    }
+    .b{
+        background-color: $primary;
+        color: #fff;
+        width: 550px;
+        border-radius: 5%;
+    }
+}
+#members{
+    background-color: $primary;
+    h1{
+       color: #fff;
+       padding-top: 30px;
+    }
+    img{
+        width: 100px;
+        height:100px;
+        border-radius: 100%;
+    }
+    .row{
+        column-gap: 30px;
+        margin-left: 100px;
+    }
+    p{
+    font-size: 0.5rem;
+    }
+    .card{
+        background-color: #fff;
+        border-radius: 5%;
+        color: $primary;
+    }
+}
+#contact{
+    background-image:url(../images/4.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 700px;
+    .container{
+        padding-top: 100px;
+        font-size: 0.9rem;
+    }
+    .p{
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: #000;
+        min-height: 450px;
+        width: 850px;
+        margin-left: 70px;
+        padding-left: 20px;
+    }
+    img{
+        width: 250px;
+        height: 125px;
+        border-radius: 125px 125px 0 0;
+        margin-top: 30px;
+    }
+    button{
+        background-color:$primary;
+        color: #fff;
+    }
+    i{
+        color: $primary;
+    }
+}
